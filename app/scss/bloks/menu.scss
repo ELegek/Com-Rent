@@ -1,0 +1,33 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
+    &__inner {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #7b7b7b;
+        padding-bottom: 20px;
+    }
+    &__list {
+        display: flex;
+        li {
+            list-style: none;
+            margin-left: 40px;
+        }
+        a {
+            font-size: 15px;
+            color: #fff; 
+            text-decoration: none; 
+        }
+    }
+    &__logo {
+        font-size: 30px;
+        font-family: 'Pacifico', cursive;
+        color: #fff;
+    }
+}

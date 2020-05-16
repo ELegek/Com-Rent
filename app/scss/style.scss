@@ -1,0 +1,74 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+
+
+
+// =========== Bloks =============
+@import "bloks/header";
+@import "bloks/menu";
+// =========== Bloks =============
+
+
+
+
+
+*, 
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+button {
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1054px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.btn__inner {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    .btn {
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #88b5d3;
+        border: none;
+        padding: 14px 24px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        transition: all .3s linear;
+        &:hover {
+            background-color: #fff;
+            color: #88b5d3;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@import "media";
