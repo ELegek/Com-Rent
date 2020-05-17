@@ -9,6 +9,9 @@
 @import "bloks/header";
 @import "bloks/menu";
 @import "bloks/previous";
+@import "bloks/features";
+@import "bloks/camera";
+@import "bloks/project";
 // =========== Bloks =============
 
 
@@ -39,7 +42,7 @@ li {
     max-width: 1054px;
     margin: 0 auto;
     padding: 0 15px;
-
+    
 }
 
 .btn__inner {
@@ -64,6 +67,21 @@ li {
     }
 }
 
+.button {
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #71b6d5;
+    text-decoration: none;
+    border: 2px solid #71b6d5;
+    padding: 10px 12px;
+    border-radius: 7px;
+    transition: all .2s linear;
+    &:hover {
+        background-color: #71b6d5;
+        color: #fff;
+    }
+}
 
 
 
