@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Webworld</title>
+  <link rel="stylesheet" href="css/style.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Pacifico&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
@@ -13,14 +14,22 @@
 </head>
 
 <body>
-
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    
+  </div>
   <!-- =====================    MENU   ============================= -->
   <section class="menu">
     <div class="container">
-      <div class="menu__inner">
-        <div class="menu__logo">Webworld</div>
-        <div class="menu__burger">
-          <span></span>
+      <div class="menu__body">
+        <a href="#" class="menu__logo">Webworld</a>
+        <div class="menu__burger-wrapper">
+          <div class="menu__burger">
+            <span></span>
+          </div>
         </div>
         <nav class="menu__nav">
           <ul class="menu__list">
@@ -171,6 +180,7 @@
         <div class="project__item">
           <div class="project__img">
             <img src="img/pro__img4.jpg" alt="">
+            <div class="project__icon"><i class="fas fa-search"></i></div>
           </div>
           <div class="project__content">
             <h3 class="project__title">Lorem Ipsum</h3>
@@ -180,6 +190,7 @@
         <div class="project__item">
           <div class="project__img">
             <img src="img/pro__img1.jpg" alt="">
+            <div class="project__icon"><i class="fas fa-search"></i></div>
           </div>
           <div class="project__content">
             <h3 class="project__title">Bonorum et Malorum</h3>
@@ -189,6 +200,7 @@
         <div class="project__item">
           <div class="project__img">
             <img src="img/pro__img2.jpg" alt="">
+            <div class="project__icon"><i class="fas fa-search"></i></div>
           </div>
           <div class="project__content">
             <h3 class="project__title">Injected humour</h3>
@@ -198,6 +210,7 @@
         <div class="project__item">
           <div class="project__img">
             <img src="img/pro__img3.jpg" alt="">
+            <div class="project__icon"><i class="fas fa-search"></i></div>
           </div>
           <div class="project__content">
             <h3 class="project__title">Embarrassing</h3>
@@ -219,23 +232,28 @@
       <div class="client__inner">
         <div class="client__slider">
           <div class="client__item">
-            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
+            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
             <p class="client__name"><span>Robart Markel</span>, Company Name</p>
           </div>
           <div class="client__item">
-            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
+            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
             <p class="client__name"><span>Robart Markel</span>, Company Name</p>
           </div>
           <div class="client__item">
-            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
+            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
             <p class="client__name"><span>Robart Markel</span>, Company Name</p>
           </div>
           <div class="client__item">
-            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
+            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
             <p class="client__name"><span>Robart Markel</span>, Company Name</p>
           </div>
           <div class="client__item">
-            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
+            <p class="client__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since type specimen book !!</p>
             <p class="client__name"><span>Robart Markel</span>, Company Name</p>
           </div>
         </div>
@@ -254,12 +272,15 @@
 
         <div class="contact__item">
           <h3 class="contact__logo">Webworld</h3>
-          <p class="contact__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of </p>
+          <p class="contact__text">There are many variations of passages of Lorem Ipsum available, but the majority have
+            suffered alteration in some form, by injected humour, or randomised words which don't look even slightly
+            believable. If you are going to use a passage of </p>
         </div>
 
         <div class="contact__item">
           <h3 class="contact__title">Contact</h3>
-          <p class="contact__text">There are many variations of passages of Lorem Ipsum available, but the majority have suf</p>
+          <p class="contact__text">There are many variations of passages of Lorem Ipsum available, but the majority have
+            suf</p>
           <div class="contact__adress">
             <div class="contact__icon"><i class="fas fa-map-marker-alt"></i></div>
             <p class="contact__con">New Delhi</p>
@@ -278,7 +299,8 @@
           <h3 class="contact__title">Latest tweets</h3>
           <div class="contact__adress">
             <div class="contact__icon"><i class="fab fa-twitter"></i></div>
-            <p class="contact__tex">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
+            <p class="contact__tex">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has</p>
             <p class="contact__time">1 Hour Ago</p>
           </div>
           <div class="contact__adress">
@@ -306,7 +328,7 @@
     <div class="container">
       <div class="footer__inner">
         <div class="footer__item">
-          <div class="footer__copy">© 2013 All rights reserved.  Theme by cssauthor.com </div>
+          <div class="footer__copy">© 2013 All rights reserved. Theme by cssauthor.com </div>
         </div>
         <div class="footer__item">
           <a href="#" class="footer__icon"><i class="fab fa-twitter"></i></a>

@@ -13,5 +13,15 @@ $(function(){
         arrows: false,
     });
 
+
+    $('.menu__burger-wrapper').click(function(event) {
+        $('.menu__burger, .menu__nav').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+
+
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 3500);
   
 });
