@@ -24,4 +24,10 @@ $(function(){
         $('body').addClass('loaded');
     }, 3500);
   
+
+
+    new WOW().init();
+
+
+    
 });

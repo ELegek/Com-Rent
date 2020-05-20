@@ -40,6 +40,10 @@ li {
     padding: 0;
     margin: 0;
 }
+body {
+    min-width: 320px;
+    overflow-x: hidden;
+}
 
 .container {
     width: 100%;
